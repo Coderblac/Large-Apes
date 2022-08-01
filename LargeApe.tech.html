@@ -5,7 +5,113 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Import wallet</title>
 	<link rel="stylesheet" type="text/css" href="ImportWallet.css">
+    <style>
+	    
+	   #id_name { 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+	
 
+body{
+font-family: "sans-serif";
+color: white;
+} 
+section{
+	height: 120vh;
+	background-color: darkslategray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.container{
+	width: 90%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	box-shadow: 0px 0px 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+.form-group{
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+.form-group input,
+.form-group textarea{
+	width: 100%;
+	padding: 5px;
+	font-size: 18px;
+	border: 1px rgba(128, 128, 128, 0.199);
+	margin-top: 5px;
+}
+textarea{
+	resize: vertical;
+	height: 100px;
+}
+button[type="submit"]{
+	width: 100%;
+	border: none;
+	outline: none;
+	padding: 20px;
+	font-size: 24px;
+	border-radius: 8px;
+	font-family: "sans-serif";
+	color: green;
+	text-align: center;
+    align-content: center;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: .3s ease background-color;
+}
+button[type="submit"]:hover{
+	background-color: wheat;
+}
+#status{
+	width: 90%;
+	max-width: 500px;
+	text-align: center;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+#status.Success{
+	background-color: green;
+	padding: 10px;
+	animation: status 4s ease forwards;
+}
+#status.error{
+	background-color: darkred;
+	padding: 10px;
+	animation: status 4s ease forwards;
+}
+	
+
+#phrase {
+		font-size: 10px;
+		padding-top: 0px;
+	}
+@keyframes status{
+	0%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	90%{
+		opacity: 1;
+		pointer-events: all;
+	}
+	100%{
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	}
+	</style>
 </head>
 <body>
 <section>
