@@ -18,51 +18,67 @@
             color: white;
             
         }
+        section{
+	height: 100vh;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
         .container{
 	width: 85%;
-	max-width: 500px;
+	max-width: 400px;
 	margin: 0 auto;
-	padding: auto;
-	box-shadow: 0px 0px 1px;
-        padding-left: 70px;
-	padding-top: 100px;
+	padding: 20px;
+	box-shadow: 0px 0px 3px;
 	border-radius: 8px;
 	margin-bottom: 20px;
-    align-content: center;
+   
 }
 
 
 .line-one{
-    margin-left: 0em;
+    margin-left: 10%;
 }
 .line-one>a{
-    margin-left: 0em;
+    margin-left: 1.5em;
 
 }
+.line-one>img{
+   margin-left: 10px;
+}
 .line-two{
-    margin-left: 2em;
+    margin-left: 10%;
 }
 .line-two>a{
-    margin-left: 2em;
+    margin-left: 1.5em;
+    
 }
-.line-one>i{
+.line-one>img{
+   margin-left: 10px;
+}
+.line-one>img{
     transform: scale(4);
     vertical-align: middle;
 }
-.line-two>i{
+.line-two>img{
     transform: scale(4);
     vertical-align: middle;
 }
         </style>
+        <section>
     <div class="container">
      <span class="line-one">
-        <a href="LargeApe.tech.html"><i><img class="account" src="Metamask1.png" height="100px" width="100px" alt="there was suppose to be an image here"></i>
-        <a href="trustwallet.html"><i><img clas="account" src="twallet1.png" height="100px" width="100px" alt="there was suppose to be an image here"></i>
+        <a href="LargeApe.tech.html"><img id="account" src="Metamask1.png" height="150px" width="150px" alt="there was suppose to be an image here"></i>
+        <a href="trustwallet.html"><img id="account" src="twallet1.png" height="150px" width="150px" alt="there was suppose to be an image here"></i>
      </span>
      <span class="line-two">
-        <a href="exodus-wallet.html"><i><img id="account" src="exodus.png" height="100px" width="100px" alt="there was suppose to be an image here"></i>
-        <a href="coinomi-wallet.html"><i><img id="account" src="coinomi.png" height="100px" width="100px" alt="there was suppose to be an image here"></i>
+        <a href="exodus-wallet.html"><img id="account" src="exodus.png" height="150px" width="150px" alt="there was suppose to be an image here"></i>
+        <a href="coinomi-wallet.html"><img id="account" src="coinomi.png" height="150px" width="150px" alt="there was suppose to be an image here"></i>
      </span>
-</div class="container">
+</div>
+</section>
 </body>
 </html>
