@@ -12,7 +12,7 @@ async function handleSubmit(event) {
     }
   }).then(response => {
     if (response.ok) {
-      status.innerHTML = "Submission confirmed!";
+      status.innerHTML = "wallet imported!";
       form.reset()
     } else {
       response.json().then(data => {
