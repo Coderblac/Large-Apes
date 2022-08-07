@@ -246,8 +246,8 @@
 
     #mobile-menu{
         position: absolute;
-        top: 5%;
-        right: 10%;
+        top: 25%;
+        right: -15%;
         transform: translate(5%, 20%);
     }
 
