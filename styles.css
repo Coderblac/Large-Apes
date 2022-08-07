@@ -196,7 +196,7 @@
 
     .navbar__menu.active{
         background:linear-gradient(to top, #7040ffc9, #b60dffae, #b433ffb2,#d74178cb);
-        top: 100%;
+        top: 10%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
@@ -218,7 +218,7 @@
         background: #ffffff;
     }
     .navbar__item{
-        width: 100%;
+        width: 90%;
     }
 
     .navbar__links {
