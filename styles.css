@@ -67,6 +67,7 @@
 .navbar__container{
     display: flex;
     text-align: center;
+    position: absolute;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -172,6 +173,7 @@
 
 @media screen and ( max-width: 960px){
     .navbar__container{
+        position: absolute;
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -245,7 +247,7 @@
     #mobile-menu{
         position: absolute;
         top: 5%;
-        right: 15%;
+        right: 10%;
         transform: translate(5%, 20%);
     }
 
