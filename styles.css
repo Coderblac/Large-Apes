@@ -176,15 +176,17 @@
         justify-content: space-between;
         height: 80px;
         z-index: 1;
-        width: 100%;
+        width: 60%;
         max-width: 1300px;
         padding: 0;
+        align-content: center;
+        justify-content: center;
     }
     .navbar__menu{
         display: grid;
         grid-template-columns: auto;
         margin: 0;
-        width: 90%;
+        width: 80%;
         position: absolute;
         top: -1000px;
         opacity: 0;
