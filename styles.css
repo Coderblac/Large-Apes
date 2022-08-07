@@ -196,13 +196,16 @@
 
     .navbar__menu.active{
         background:linear-gradient(to top, #7040ffc9, #b60dffae, #b433ffb2,#d74178cb);
-        top: 10%;
+        top: 20%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
         border-radius: 20px;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
     }
 
     #navbar__logo{
@@ -218,14 +221,14 @@
         background: #ffffff;
     }
     .navbar__item{
-        width: 90%;
+        width: 60%;
     }
 
     .navbar__links {
         justify-items: center;
         text-align: center;
         padding:1rem;
-        width: 90%;
+        width: 60%;
         display: table;
     }
 
@@ -239,15 +242,15 @@
     .navbar__btn{
         align-content: center;
         padding-bottom: 0.5rem; 
-        width: 90%;
+        width: 60%;
     }
 
     .button{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30%;
-        height: 8px;
+        width: 100%;
+        height: 10px;
         margin: 0;
         
     }
