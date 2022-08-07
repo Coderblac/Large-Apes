@@ -52,7 +52,7 @@
 /* about us end*/
 
 .navbar {
-    background: linear-gradient(-45deg, #a659ff, #7040ff, #ff0d6e, #ff8033,#d74177);
+    background: linear-gradient(-45deg, #10062fc9, #240630c8, #210333c8,#340315cb,#24020ecf);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -197,7 +197,7 @@
     }
 
     .navbar__menu.active{
-        background:linear-gradient(to top, #7040ffc9, #b60dffae, #b433ffb2,#d74178cb);
+        background:linear-gradient(to top, #0a041cc9, #180320ae, #190327b2,#2c0513cb);
         top: 20%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -211,10 +211,11 @@
     }
 
     #navbar__logo{
-        padding-left: 10px;
+        padding-left: 10%;
         text-align: center;
         align-content: center;
         justify-content: center;
+        color: white;
 
     }
 
@@ -224,7 +225,8 @@
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background: #ffffff;
-        top: 0;
+        
+        
     }
     .navbar__item{
         width: 60%;
@@ -233,7 +235,7 @@
     .navbar__links {
         justify-items: center;
         text-align: center;
-        padding:1rem;
+        /* padding:1rem; */
         width: 60%;
         display: table;
     }
@@ -256,7 +258,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 10px;
+        height: 25px;
         margin: 0;
         
     }
@@ -264,6 +266,8 @@
     .navbar__toggle .bar{
         display: block;
         cursor: pointer;
+        border-radius: 10px;
+        
     }
 
     #mobile-menu.is-active .bar:nth-child(2){
