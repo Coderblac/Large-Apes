@@ -202,7 +202,7 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 60vh;
         font-size: 1.6rem;
         border-radius: 20px;
         align-content: center;
@@ -216,6 +216,7 @@
         align-content: center;
         justify-content: center;
         color: white;
+        opacity: 1;
 
     }
 
@@ -233,6 +234,7 @@
     }
 
     .navbar__links {
+        padding-top: 0.5rem;
         justify-items: center;
         text-align: center;
         /* padding:1rem; */
@@ -242,8 +244,8 @@
 
     #mobile-menu{
         position: absolute;
-        top: 20%;
-        right: 5%;
+        top: 5%;
+        right: 10%;
         transform: translate(5%, 20%);
     }
 
