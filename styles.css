@@ -200,7 +200,7 @@
 
     .navbar__menu.active{
         background:linear-gradient(to top, #0a041cc9, #180320ae, #190327b2,#2c0513cb);
-        top: 20%;
+        top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
@@ -247,7 +247,7 @@
     #mobile-menu{
         position: absolute;
         top: 25%;
-        right: -15%;
+        right: -12%;
         transform: translate(5%, 20%);
     }
 
