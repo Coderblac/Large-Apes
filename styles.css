@@ -77,19 +77,14 @@
     padding: 0 50px;
 }
 #navbar__logo{
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #d4dea0 0%, #ffffff 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 1.7rem;
-    
+    color:  whitesmoke;
+   
 }
 
 .fa-gem{
@@ -213,11 +208,10 @@
     }
 
     #navbar__logo{
-        padding-left: 10%;
         text-align: center;
         align-content: center;
         justify-content: center;
-        color: white;
+        color: rgba(255, 255, 255, 0.599);
         opacity: 1;
 
     }
@@ -247,7 +241,7 @@
     #mobile-menu{
         position: absolute;
         top: 25%;
-        right: -12%;
+        right: -9%;
         transform: translate(5%, 20%);
     }
 
